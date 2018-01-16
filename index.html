@@ -1,0 +1,78 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>关于我|John</title>
+    <link rel="icon" type="image/png" href="/assets/images/overwatch.png" />
+    <link href="/assets/images/overwatch.png" rel="shortcut icon" type="image/png">
+    
+    <meta name="description" content="I am @oneyian, a/iOS/Mac programmer from China." />
+    <meta name="author" content="John" />
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold%7CPT+Sans:400,700,400italic,700italic%7CPT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+    <link href="css/aboutme.css" rel="stylesheet" />
+    <audio autoplay src="/assets/YY.mp3"></audio>
+    <base target="_blank">
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>您的浏览器 <b>不支持</b> impress.js的展示要求, 请使用最新版的<b>Chrome</b>, <b>Safari</b> 浏览器</p>
+    <p>珍爱生命，保护地球，远离IE</p>
+</div>
+
+<div id="impress">
+    <div id="welcome" class="step" data-x="-2000" data-y="-2500">
+        <p>Welcome to</p>
+        <p><span class="title"><b>My World</b></span></p>
+        <p><span class="footnote">我叫<span class="name">王毅安(@John)</span>，这里是我的世界</span></p>
+    </div>
+
+    <div id="me" class="step" data-x="0" data-y="-2500">
+        <b class="now_me">现在的我：</b>
+        <ul>
+            <li><b class="job">正经的iOS 开发者</b></li>
+        </ul>
+    </div>
+
+    <div id="whereiam" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="3">
+        <p>生于<span class="kunming">田野之乡</span></p>
+        <p><span class="born">摸爬滚打（新手村）</span></p>
+        <p>目前坐标在<span class="tsinghua">南昌</span></p>
+        <p><span class="study">正在打磨属于自己的那把 “剑”...</span></p>
+    </div>
+  
+    <div id="findme" class="step" data-x="-6000" data-y="1000" data-scale="4">
+        <p>您可以在<a href="https://github.com/oneyian">Github</a>上查看我的开源项目</p>
+        <q>也可以逛一逛<a href="https://oneyian.cn">Oneyian`</a>，那里陈列了我的一些经验</q>
+    </div>
+
+    <div id="motto" class="step" data-x="0" data-y="1500" data-z= "6000" data-scale="5">
+        <p>不论您走到哪儿，在做什么</p>
+        <p>都请勿忘初心 请记住</p>
+        <p><b>铁甲依然在</b></p>
+    </div>
+
+    <div id="overview" class="step" data-x="0" data-y="2500" data-scale="16">
+    </div>
+
+</div>
+
+<div class="hint">
+    <p>摇杆 ↑↓←→ ABAB 启动</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>在左侧或右侧点击继续</p>";
+}
+</script>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
